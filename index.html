@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SIMOPHI — Monitoring Pos Hujan Sumatera Barat</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- SIDEBAR -->
+<aside id="sidebar">
+  <div class="sidebar-header">
+    <div class="logo-block">
+      <div class="logo-icon">
+        <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
+          <circle cx="14" cy="14" r="13" stroke="#4ade80" stroke-width="1.5"/>
+          <path d="M8 18 Q11 10 14 14 Q17 18 20 10" stroke="#4ade80" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+          <circle cx="14" cy="21" r="2.5" fill="#4ade80"/>
+        </svg>
+      </div>
+      <div>
+        <div class="logo-title">SIMOPHI</div>
+        <div class="logo-sub">Sumatera Barat</div>
+      </div>
+    </div>
+    <div class="bmkg-badge">BMKG</div>
+  </div>
+
+  <div class="sidebar-section">
+    <div class="section-label">Tanggal Analisis</div>
+    <div class="date-display" id="tanggal-display">—</div>
+    <div class="update-time" id="update-time">Memuat data...</div>
+  </div>
+
+  <div class="stat-grid">
+    <div class="stat-card">
+      <div class="stat-val" id="stat-total">—</div>
+      <div class="stat-label">Total Pos</div>
+    </div>
+    <div class="stat-card stat-ok">
+      <div class="stat-val" id="stat-normal">—</div>
+      <div class="stat-label">Normal</div>
+    </div>
+    <div class="stat-card stat-warn">
+      <div class="stat-val" id="stat-suspect">—</div>
+      <div class="stat-label">Suspect</div>
+    </div>
+    <div class="stat-card stat-info">
+      <div class="stat-val" id="stat-hujan">—</div>
+      <div class="stat-label">Ada Hujan</div>
+    </div>
+  </div>
+
+  <div class="sidebar-section">
+    <div class="section-label">Filter Tampilan</div>
+    <div class="filter-group">
+      <button class="filter-btn active" data-filter="semua">Semua</button>
+      <button class="filter-btn" data-filter="SUSPECT">Suspect</button>
+      <button class="filter-btn" data-filter="hujan">Ada Hujan</button>
+      <button class="filter-btn" data-filter="kering">Tidak Hujan</button>
+    </div>
+  </div>
+
+  <div class="sidebar-section">
+    <div class="section-label">Legenda Curah Hujan</div>
+    <div class="legend-list">
+      <div class="legend-item"><span class="dot" style="background:#94a3b8"></span>Tidak Hujan (0 mm)</div>
+      <div class="legend-item"><span class="dot" style="background:#bae6fd"></span>Sangat Ringan (&lt;5 mm)</div>
+      <div class="legend-item"><span class="dot" style="background:#60a5fa"></span>Ringan (5–20 mm)</div>
+      <div class="legend-item"><span class="dot" style="background:#3b82f6"></span>Sedang (20–50 mm)</div>
+      <div class="legend-item"><span class="dot" style="background:#f59e0b"></span>Lebat (50–100 mm)</div>
+      <div class="legend-item"><span class="dot" style="background:#ef4444"></span>Sangat Lebat (&gt;100 mm)</div>
+      <div class="legend-item"><span class="dot suspect-dot"></span>⚠ Pos Suspect</div>
+    </div>
+  </div>
+
+  <div class="sidebar-section">
+    <div class="section-label">Daftar Pos</div>
+    <input type="text" id="search-pos" placeholder="Cari pos hujan..." class="search-input">
+    <div class="pos-list" id="pos-list">
+      <div class="loading-msg">Memuat data...</div>
+    </div>
+  </div>
+</aside>
+
+<!-- MAIN CONTENT -->
+<main id="main">
+  <div id="map"></div>
+
+  <!-- Panel Detail -->
+  <div id="detail-panel" class="detail-panel hidden">
+    <div class="detail-header">
+      <div>
+        <div class="detail-id" id="d-id"></div>
+        <div class="detail-nama" id="d-nama"></div>
+        <div class="detail-kab" id="d-kab"></div>
+      </div>
+      <div>
+        <div class="status-badge" id="d-status"></div>
+        <button class="close-btn" onclick="tutupDetail()">✕</button>
+      </div>
+    </div>
+    <div class="detail-body">
+      <div class="detail-row">
+        <span class="detail-label">Curah Hujan</span>
+        <span class="detail-val" id="d-ch"></span>
+      </div>
+      <div class="detail-row">
+        <span class="detail-label">Kategori</span>
+        <span class="detail-val" id="d-kategori"></span>
+      </div>
+      <div class="detail-row">
+        <span class="detail-label">Rata-rata AWS</span>
+        <span class="detail-val" id="d-aws"></span>
+      </div>
+      <div class="detail-row">
+        <span class="detail-label">Koordinat</span>
+        <span class="detail-val" id="d-coords"></span>
+      </div>
+      <div class="detail-section-title">Analisis</div>
+      <div class="flag-box" id="d-flag-aws"></div>
+      <div class="flag-box" id="d-flag-spatial"></div>
+      <div class="detail-section-title" id="d-aws-title"></div>
+      <div id="d-aws-list"></div>
+    </div>
+  </div>
+
+  <!-- Alert bar untuk pos suspect -->
+  <div id="suspect-bar" class="suspect-bar hidden">
+    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M8 1L15 14H1L8 1Z" stroke="#f59e0b" stroke-width="1.5"/><line x1="8" y1="6" x2="8" y2="10" stroke="#f59e0b" stroke-width="1.5"/><circle cx="8" cy="12" r="0.75" fill="#f59e0b"/></svg>
+    <span id="suspect-bar-text"></span>
+  </div>
+</main>
+
+<script src="app.js"></script>
+</body>
+</html>
