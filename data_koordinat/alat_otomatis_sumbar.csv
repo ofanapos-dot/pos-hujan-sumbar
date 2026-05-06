@@ -1,0 +1,25 @@
+id_alat;nama_alat;tipe_alat;latitude;longitude;kabupaten
+ARG001;ARG Ampek Nagari;ARG;-0.1966;99.996941;Kabupaten Agam
+ARG002;ARG Berangin;ARG;-0.6022;100.726936;Kota Sawahlunto
+ARG003;ARG Guguak;ARG;-0.153245;100.547546;Kabupaten Lima Puluh Kota
+ARG004;ARG Kapur IX;ARG;0.24139;100.55811;Kabupaten Lima Puluh Kota
+ARG005;ARG Linggo Sari Baganti;ARG;-1.906944;100.882797;Kabupaten Pesisir Selatan
+ARG006;ARG Rao Pasaman;ARG;0.561;100;Kabupaten Pasaman
+ARG007;ARG Sijunjung;ARG;-0.697;101;Kabupaten Sijunjung
+ARG008;ARG Sipora Jaya;ARG;-2.06;99.6;Kepulauan Mentawai
+ARG009;ARG Solok;ARG;-0.9466;100.6;Kabupaten Solok
+ARG010;ARG Solok Selatan;ARG;-1.555;101.2;Kabupaten Solok Selatan
+ARG011;ARG Sungai Dareh;ARG;-0.983;101.5;Kabupaten Dharmasraya
+ARG012;ARG Sungai Limau;ARG;-0.534895;100.102493;Kabupaten Padang Pariaman
+ARG013;ARG Sungai Tarab;ARG;-0.412624;100.568275;Kabupaten Tanah Datar
+ARG014;ARG SMPK Tanah Datar;ARG;-0.500556;100.568275;Kabupaten Tanah Datar
+ARG015;ARG X Koto;ARG;-0.3936;100.41301;Kabupaten Tanah Datar
+AWS001;AWS Alahan Panjang;AWS;-1.095582;100.794296;Kabupaten Solok
+AWS002;AWS Canduang;AWS;-0.328342;100.439331;Kabupaten Agam
+AWS003;AWS Harau;AWS;-0.16989;100.666;Kabupaten Lima Puluh Kota
+AWS004;AWS Pasaman Barat;AWS;0.124304;99.868561;Kabupaten Pasaman Barat
+AAWS001;AAWS Staklim Padang Pariaman;AAWS;-0.54585;100.2985;Kabupaten Padang Pariaman
+AAWS002;AAWS Sumani;AAWS;-0.722417;100.597603;Kabupaten Solok
+AAWS003;AAWS GAW Bukittinggi;AAWS;-0.20194;100.3181;Kabupaten Agam
+AWS005;AWS Bandara Minangkabau;AWS;-0.788914;100.287361;Kabupaten Padang Pariaman
+AWS006;AWS Maritim Bungus;AWS;-1.029558;100.395943;Kota Padang
