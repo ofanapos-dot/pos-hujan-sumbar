@@ -1,1 +1,131 @@
+id_pos	nama_pos	kabupaten	latitude	longitude	elevasi	satuan
+PH001	Baso	Kab. Agam	-0.3	100.48	995.78	meter
+PH002	GAW Palupuh	Kab. Agam	-0.18	100.34	999.61	meter
+PH003	GAW Pasadama	Kab. Agam	-0.25	100.38	895.78	meter
+PH004	Kamang Mudiak	Kab. Agam	-0.21	100.41	863.18	meter
+PH005	Koto Tuo	Kab. Agam	-0.37	100.3	1316.18	meter
+PH006	Lubuk Basung	Kab. Agam	-0.29	99.95	10.81	meter
+PH007	Matur	Kab. Agam	-0.31	100.25	1176.01	meter
+PH008	Palembayan	Kab. Agam	-0.19	100.23	781.54	meter
+PH009	Tanjung Raya - Maninjau	Kab. Agam	-0.29	100.15	472.48	meter
+PH010	Tiku	Kab. Agam	-0.37	99.91	3.4	meter
+PH011	BPP Koto Baru	Kab. Dharmasraya	-1.04	101.67	89.17	meter
+PH012	BPP Koto Salak	Kab. Dharmasraya	-1.19	101.73	106.24	meter
+PH013	Sei Dareh	Kab. Dharmasraya	-1.06	101.5	168.27	meter
+PH014	Sitiung	Kab. Dharmasraya	-1.01	101.59	101.9	meter
+PH015	Timpeh	Kab. Dharmasraya	-0.91	101.62	101.32	meter
+PH016	Muara Siberut	Kab. Kepulauan Mentawai	-1.63	99.18	30.08	meter
+PH017	Muara Sikabaluan	Kab. Kepulauan Mentawai	-1.13	98.98	9.07	meter
+PH018	Akabiluru	Kab. Lima Puluh Kota	-0.24	100.55	531.72	meter
+PH019	BP3K Bukit Barisan	Kab. Lima Puluh Kota	-0.06	100.52	723.87	meter
+PH020	BPP Tanjung Pati	Kab. Lima Puluh Kota	-0.17	100.66	504.3	meter
+PH021	Guguak	Kab. Lima Puluh Kota	-0.16	100.57	514.36	meter
+PH022	Luhak	Kab. Lima Puluh Kota	-0.28	100.68	818.99	meter
+PH023	Muara Paiti	Kab. Lima Puluh Kota	0.24	100.55	117.36	meter
+PH024	Padang Mangatas	Kab. Lima Puluh Kota	-0.27	100.68	724.37	meter
+PH025	Pangkalan	Kab. Lima Puluh Kota	0.09	100.73	92.21	meter
+PH026	Politani Tanjungpati	Kab. Lima Puluh Kota	-0.17	100.67	498.07	meter
+PH027	Situjuah	Kab. Lima Puluh Kota	-0.29	100.64	757.09	meter
+PH028	Suliki	Kab. Lima Puluh Kota	-0.1	100.5	534.65	meter
+PH029	BIM-Bandara Internasional Minangkabau	Kab. Padang Pariaman	-0.79	100.29	8.45	meter
+PH030	BPP Pilubang	Kab. Padang Pariaman	-0.54	100.1	9.79	meter
+PH031	BPP Sintuk	Kab. Padang Pariaman	-0.65	100.26	38.25	meter
+PH032	Kandang Ampek	Kab. Padang Pariaman	-0.5	100.34	292.36	meter
+PH033	Kuliek	Kab. Padang Pariaman	-0.74	100.33	23.27	meter
+PH034	Limau Purut	Kab. Padang Pariaman	-0.53	100.17	113.14	meter
+PH035	Padang Laring	Kab. Padang Pariaman	-0.34	100.09	316.02	meter
+PH036	Sei Geringging	Kab. Padang Pariaman	-0.42	100.08	212.78	meter
+PH037	Staklim Padang Pariaman	Kab. Padang Pariaman	-0.55	100.3	112.01	meter
+PH038	Sunur	Kab. Padang Pariaman	-0.67	100.19	9.29	meter
+PH039	Tandikat	Kab. Padang Pariaman	-0.5	100.25	172.75	meter
+PH040	Ulakan Tapakis	Kab. Padang Pariaman	-0.7	100.22	6.47	meter
+PH041	Bonjol	Kab. Pasaman	-0.7	100.25	11.58	meter
+PH042	Lubuk Sikaping	Kab. Pasaman	0.14	100.17	451.31	meter
+PH043	Petok	Kab. Pasaman	0.29	100.1	250.83	meter
+PH044	Rao	Kab. Pasaman	0.56	100.02	265.54	meter
+PH045	Simpati	Kab. Pasaman	0.01	100.16	368.47	meter
+PH046	UPT-BP Ladang Panjang	Kab. Pasaman	0.04	100.05	380.94	meter
+PH047	Gunung Tuleh	Kab. Pasaman Barat	0.24	99.72	41.98	meter
+PH048	Kinali	Kab. Pasaman Barat	-0.02	99.85	24	meter
+PH049	Parit	Kab. Pasaman Barat	0.28	99.53	22.66	meter
+PH050	Sasak	Kab. Pasaman Barat	0.01	99.7	1.5	meter
+PH051	Sei Baremas	Kab. Pasaman Barat	0.24	99.45	19.28	meter
+PH052	Sei Talang	Kab. Pasaman Barat	0.02	99.79	13.65	meter
+PH053	Sukamenanti	Kab. Pasaman Barat	0.1	99.81	49.87	meter
+PH054	UPTB Talamau	Kab. Pasaman Barat	0.19	99.95	524.42	meter
+PH055	Air Pura	Kab. Pesisir Selatan	-1.99	100.95	52.47	meter
+PH056	BPK Batang Kapas	Kab. Pesisir Selatan	-1.49	100.61	6.13	meter
+PH057	BPK Bayang Api-Api	Kab. Pesisir Selatan	-1.29	100.49	4.23	meter
+PH058	BPK Duku Nanggalo	Kab. Pesisir Selatan	-1.16	100.48	468.93	meter
+PH059	BPK Linggo Sari Baganti	Kab. Pesisir Selatan	-1.91	100.88	7.68	meter
+PH060	BPK Padang Laban	Kab. Pesisir Selatan	-1.92	100.87	5.6	meter
+PH061	Kambang	Kab. Pesisir Selatan	-1.67	100.74	6.06	meter
+PH062	Lunang	Kab. Pesisir Selatan	-2.26	101.1	16.01	meter
+PH063	PU Batang Kapas - Tanah Kareh	Kab. Pesisir Selatan	-1.48	100.62	42.01	meter
+PH064	Tarusan	Kab. Pesisir Selatan	-1.24	100.47	3.66	meter
+PH065	BPK Sijunjung	Kab. Sijunjung	-0.7	101.01	360.16	meter
+PH066	BPK Tanjung Ampalu	Kab. Sijunjung	-0.64	100.96	458.25	meter
+PH067	BPP 4 Nagari	Kab. Sijunjung	-0.67	100.88	172.15	meter
+PH068	Kumanis	Kab. Sijunjung	-0.53	100.88	326.61	meter
+PH069	Kupitan	Kab. Sijunjung	-0.7	100.84	207.55	meter
+PH070	Lubuk Tarok	Kab. Sijunjung	-0.82	101.03	222.62	meter
+PH071	Muara Sijunjung	Kab. Sijunjung	-0.6	100.99	909.45	meter
+PH072	Sei Langsat	Kab. Sijunjung	-0.91	101.3	211.33	meter
+PH073	Sumpur Kudus	Kab. Sijunjung	-0.54	100.81	222.61	meter
+PH074	Tanjung Gadang	Kab. Sijunjung	-0.78	101.17	471.11	meter
+PH075	Tanjung Lolo	Kab. Sijunjung	-0.77	101.18	374.01	meter
+PH076	Balitbu Aripan	Kab. Solok	-0.7	100.6	365.31	meter
+PH077	Balitbu Sumani	Kab. Solok	-0.72	100.6	365.95	meter
+PH078	BBI Surian	Kab. Solok	-1.25	100.87	1126.96	meter
+PH079	BPK Hiliran Gumanti	Kab. Solok	-1.1	100.87	1139.49	meter
+PH080	BPK IX Koto Seilasi	Kab. Solok	-0.79	100.75	532.72	meter
+PH081	BPK Lembah Gumanti	Kab. Solok	-1.08	100.78	1541.68	meter
+PH082	BPK X Koto Diatas	Kab. Solok	-0.62	100.64	464.21	meter
+PH083	Danau Kembar	Kab. Solok	-1.04	100.74	1509.95	meter
+PH084	Gunung Talang	Kab. Solok	-1.02	100.63	1289.86	meter
+PH085	Kubung	Kab. Solok	-0.83	100.61	645.05	meter
+PH086	Lembang Jaya	Kab. Solok	-0.97	100.72	1382.63	meter
+PH087	Muara Panas	Kab. Solok	-0.85	100.69	430.95	meter
+PH088	Muaro Pingai	Kab. Solok	-0.68	100.56	365.06	meter
+PH089	Payung Sekaki	Kab. Solok	-0.91	100.78	1145.1	meter
+PH090	Tigo Lurah	Kab. Solok	-1.06	101.05	611.97	meter
+PH091	UPTD Alahan Panjang	Kab. Solok	-0.98	100.78	1531.13	meter
+PH092	X Koto Singkarak	Kab. Solok	-0.71	100.6	364.51	meter
+PH093	BPP Sangir Batanghari	Kab. Solok Selatan	-1.27	101.39	188.43	meter
+PH094	Lubuk Gadang Selatan	Kab. Solok Selatan	-1.55	101.25	543.91	meter
+PH095	Pakan Salasa - Muara Labuh	Kab. Solok Selatan	-1.4	101.05	821.2	meter
+PH096	Pekonina	Kab. Solok Selatan	-1.59	101.14	933.67	meter
+PH097	Sangir Jujuan	Kab. Solok Selatan	-1.43	101.32	543.08	meter
+PH098	Batipuh	Kab. Tanah Datar	-0.47	100.46	766.05	meter
+PH099	BPK X Koto Paninjauan	Kab. Tanah Datar	-0.44	100.42	953.25	meter
+PH100	BPP Padang Ganting	Kab. Tanah Datar	-0.51	100.72	369.81	meter
+PH101	Bpp Sei Tarab	Kab. Tanah Datar	-0.42	100.57	624.86	meter
+PH102	BPP Sungayang	Kab. Tanah Datar	-0.38	100.63	845.05	meter
+PH103	Cubadak	Kab. Tanah Datar	-0.47	100.54	650.74	meter
+PH104	Diperta Tanah Datar	Kab. Tanah Datar	-0.48	100.62	384.69	meter
+PH105	Galo Gandang	Kab. Tanah Datar	-0.49	100.56	579.98	meter
+PH106	Malalo	Kab. Tanah Datar	-0.57	100.48	447.89	meter
+PH107	Ombilin weir	Kab. Tanah Datar	-0.56	100.55	365.29	meter
+PH108	Padang Ganting	Kab. Tanah Datar	-0.53	100.68	263.44	meter
+PH109	PU-Sei Tarab	Kab. Tanah Datar	-0.42	100.56	688.53	meter
+PH110	Rambatan	Kab. Tanah Datar	-0.51	100.57	489.09	meter
+PH111	Salimpaung	Kab. Tanah Datar	-0.33	100.57	995.33	meter
+PH112	Saruaso	Kab. Tanah Datar	-0.53	100.63	547.47	meter
+PH113	BPBD Bukittinggi	Kota Bukittinggi	-0.28	100.37	919.62	meter
+PH114	Bandar Buat	Kota Padang	-0.95	100.42	52.63	meter
+PH115	Limau Manih-UNAND	Kota Padang	-0.92	100.44	120.6	meter
+PH116	Lubuk Minturun	Kota Padang	-0.85	100.38	28.38	meter
+PH117	Muara Palam - Parak karakah	Kota Padang	-0.94	100.38	14.55	meter
+PH118	Nanggalo	Kota Padang	-0.91	100.36	7.15	meter
+PH119	Tambang Semen Padang	Kota Padang	-0.96	100.5	495.51	meter
+PH120	Teluk Bayur	Kota Padang	-0.98	100.36	2.86	meter
+PH121	Water Plan Semen Padang	Kota Padang	-0.96	100.48	222.07	meter
+PH122	PU Padang Panjang	Kota Padang Panjang	-0.45	100.44	899.42	meter
+PH123	Stageof PPI	Kota Padang Panjang	-0.47	100.42	749.83	meter
+PH124	Pariaman	Kota Pariaman	-0.6	100.13	16.71	meter
+PH125	Payakumbuh Barat	Kota Payakumbuh	-0.25	100.62	526.19	meter
+PH126	Payakumbuh Selatan	Kota Payakumbuh	-0.25	100.63	522.52	meter
+PH127	BPP Kolok	Kota Sawahlunto	-0.6	100.73	244.17	meter
+PH128	Lubuk Sikarah	Kota Solok	-0.77	100.61	594.58	meter
+PH129	Tanjung Harapan	Kota Solok	-0.76	100.65	496.6	meter
 
